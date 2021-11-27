@@ -10,6 +10,7 @@ function PostNavbar() {
                 <img src="/monkeyBack.png" alt='monkeyBackground' className={s.monkeyBack}/>
             </div>
             <div className={s.secondContainer}>
+                    <img src="/backgrounds/Ellipse 2.png" alt=""/>
                 <div className={s.exclusive}>
                     <h2>EXCLUSIVE</h2>
                     <img src="/Frame 11.png" width="6.5%"/>
