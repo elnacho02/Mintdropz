@@ -1,0 +1,30 @@
+.container{
+}
+.collections{
+    margin-left: 3%;
+    width: 93%;
+    font-size: 5rem;
+    font-weight: 600;
+    padding: 2% 0 0.8% 0;
+    background: linear-gradient(90deg, #AC32E4 0%, #7918F2 20%, #4801FF 33%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.p{
+    color: white;
+    width: 80%;
+    margin-left: 3%;
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+}
+.cardsContainer{
+    width: 100%;
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0.7rem;
+    grid-row-gap: 1.4rem;
+}
