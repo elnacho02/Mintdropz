@@ -12,6 +12,7 @@ function PostNavbar() {
             <div className={s.secondContainer}>
                 <div className={s.exclusive}>
                     <h2>EXCLUSIVE</h2>
+                    <img src="/Frame 11.png" width="6.5%"/>
                     <h4>newest NFT release</h4>
                 </div>
                 <div className={s.p}>

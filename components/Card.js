@@ -2,7 +2,8 @@ import React from 'react'
 import s from "../styles/Card.module.css"
 function Card({user, img}) {
     return (
-        <div className={s.cardContainer}>
+        <div className={s.container}>
+            <div className={s.cardContainer}>
             <div className={s.head}>
                 <div className={s.user}>
                     <img src={user} alt=""/>
@@ -23,6 +24,7 @@ function Card({user, img}) {
                     <h5>Ending in</h5>
                     <h4>12h 55m 2s</h4>
                 </div>
+            </div>
             </div>
         </div>
     )

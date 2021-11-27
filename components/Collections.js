@@ -38,6 +38,7 @@ function Collections() {
             With more than 180+ hand drawn traits, each NFT is unique and comes with a membership to an exclusive group of successful investors. Join an ambitious ever-growing community with multiple benefits and utilities.
             </p>
             <div className={s.cardsContainer}>
+                
                 {cards.map(element => (
                     <Card user={element.user} img={element.img} key={element.user}/>
                 ))}

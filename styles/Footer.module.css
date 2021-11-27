@@ -1,0 +1,48 @@
+.container{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(18,18,18);
+}
+.border{
+    border-top: 1px solid rgba(129, 129, 129, 1);
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 50%;  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgba(118, 118, 118, 1);
+    font-family: 'Roboto';
+    gap: 7%;
+}
+.logo>h5:hover{
+    cursor: pointer;
+}
+.logo>img{
+    width: 27%;
+}
+.socialMedia{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.icons{
+    margin-right: 10%;
+    display: flex;
+    gap: 10%;
+}
+.icons>img{
+    width: 38%;
+}
+.icons>img:hover{
+    cursor: pointer;
+}
