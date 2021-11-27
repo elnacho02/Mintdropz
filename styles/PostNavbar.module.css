@@ -4,9 +4,6 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-image: url("/backgrounds/Ellipse 2.png");
-    background-repeat: no-repeat;
-    background-position: 100% -100%;
 }
 /*imgContainer*/
 .imgContainer{
@@ -38,6 +35,9 @@
     display: flex;
     flex-direction: column;
     color: white;
+    background-image: url("/backgrounds/Ellipse 2.png");
+    background-repeat: no-repeat;
+    background-position: 100% -100%;
 }
 .exclusive{
     position: relative;
@@ -48,7 +48,7 @@
 }
 .exclusive>img{
     position: absolute;
-    right: 25.5%;
+    right: 11rem;
 }
 .exclusive>h2{
     font-size: 5.5rem;

@@ -3,7 +3,7 @@
     z-index: -100;
     background-image: url("/backgrounds/dots2.png");
     background-repeat: no-repeat;
-    background-position: -23.5% 133%;
+    background-position: -23.5vh 239vh;
 }
 
 .dots1{
@@ -13,6 +13,6 @@
 }
 .ellipse3{
     position: absolute;
-    top: 188%;
-    right: 0%;
+    top: 180vh;
+    right: 0;
 }
